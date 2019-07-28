@@ -7,7 +7,8 @@ export default {
   colors: {
     text: "#232129",
     background: "#fff",
-    primary: "#639",
+    primary: "#f953c6",
+    headerColor: "rgb(34, 52, 97)"
   },
   fonts: {
     default:
@@ -54,7 +55,7 @@ export default {
       paddingTop: 3,
     },
     h1: {
-      color: "text",
+      color: "headerColor",
       fontSize: 5,
       lineHeight: "heading",
     },

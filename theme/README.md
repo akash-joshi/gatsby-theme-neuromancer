@@ -1,6 +1,4 @@
-# Gatsby Theme Jam Example Submission
-
-This is a bare-bones Gatsby theme to showcase how a [Theme Jam](https://themejam.gatsbyjs.org) submission should look.
+# Gatsby Theme Neuromancer
 
 See the [live demo](https://gatsby-theme-jam-example.netlify.com)
 

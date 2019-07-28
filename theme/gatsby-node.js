@@ -9,7 +9,7 @@ exports.createPages = ({ actions, reporter }) => {
       heading: "Your Theme Here",
       content: `
         <p>
-          Use this handy theme example as the basis for your own amazing theme!
+          Use this handy theme example as the basis for your own amazing theme! :)
         </p>
         <p>
           For more information, see 
