@@ -24,6 +24,7 @@ export default {
   },
   styles: {
     Layout: {
+      backgroundColor: "background",
       color: "text",
       fontFamily: "default",
       fontSize: 1,
@@ -47,15 +48,12 @@ export default {
     Main: {
       margin: "0 auto",
       maxWidth: "container",
-      width: "90vw",
+      width: "100vw",
     },
     Container: {
-      backgroundColor: "background",
       padding: 0,
       paddingBottom: 3,
       paddingTop: 3,
-      paddingLeft: 6,
-      paddingRight: 6,
       minHeight: "85vh"
     },
     h1: {
