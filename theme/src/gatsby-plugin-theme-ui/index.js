@@ -5,10 +5,10 @@
  */
 export default {
   colors: {
-    text: "#232129",
-    background: "#fff",
-    primary: "#f953c6",
-    headerColor: "rgb(34, 52, 97)"
+    text: "rgb(34, 52, 97)",
+    background: "#bcffca",
+    primary: "#6be585",
+    headerColor: "rgb(34, 52, 97)",
   },
   fonts: {
     default:
@@ -24,7 +24,6 @@ export default {
   },
   styles: {
     Layout: {
-      backgroundColor: "background",
       color: "text",
       fontFamily: "default",
       fontSize: 1,
@@ -32,16 +31,17 @@ export default {
     },
     Header: {
       backgroundColor: "primary",
-      color: "background",
+      color: "headerColor",
       fontWeight: "bold",
       margin: 0,
       span: {
         display: "block",
-        fontSize: 3,
+        fontSize: 0,
         margin: "0 auto",
         maxWidth: "container",
         padding: 3,
         width: "90vw",
+        minHeight:"10vh"
       },
     },
     Main: {
@@ -50,9 +50,13 @@ export default {
       width: "90vw",
     },
     Container: {
+      backgroundColor: "background",
       padding: 0,
       paddingBottom: 3,
       paddingTop: 3,
+      paddingLeft: 6,
+      paddingRight: 6,
+      minHeight: "85vh"
     },
     h1: {
       color: "headerColor",

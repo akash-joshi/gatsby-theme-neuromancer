@@ -24,7 +24,11 @@ const Layout = ({ children }) => {
         `}
       />
       <Header>
-        <span>{data.site.siteMetadata.title}</span>
+        <span>
+          <h1>
+            {data.site.siteMetadata.title}
+          </h1>
+        </span>
       </Header>
       <Main>
         <Container>{children}</Container>
